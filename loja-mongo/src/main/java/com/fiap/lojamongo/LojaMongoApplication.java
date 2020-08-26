@@ -21,8 +21,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @SpringBootApplication
 @ComponentScan(basePackageClasses = ProdutoController.class)
-@EnableMongoRepositories(basePackageClasses = { ClienteRepository.class, ProdutoRepository.class,
-		PedidoRepository.class })
+//@EnableMongoRepositories(basePackageClasses = { ClienteRepository.class, ProdutoRepository.class,
+//		PedidoRepository.class })
 public class LojaMongoApplication {
 
 	public static void main(String[] args) {

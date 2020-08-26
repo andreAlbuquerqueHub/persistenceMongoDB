@@ -95,6 +95,7 @@ public class LojaMongoApplicationTestMain implements CommandLineRunner {
 		produtosPedido = new ProdutosPedido(2, 1);
 		lista.add(produtosPedido);
 		produtosPedido = new ProdutosPedido(3, 1);
+		lista.add(produtosPedido);
 		pedido = new Pedido(25003, "aliceflaviadacunha..aliceflaviadacunha@gmailo.com", lista);
 		pedidoRepository.save(pedido);
 
